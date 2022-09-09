@@ -1,11 +1,14 @@
 #include <stdio.h>
 
 /**
-* main - entry point
+* main - print the string in the put function
 *
-* Return: 0
+* Description: using the main function
+* it prints
+* return: 0
 */
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
+}
