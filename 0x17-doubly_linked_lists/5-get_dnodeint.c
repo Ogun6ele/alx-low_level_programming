@@ -6,7 +6,7 @@
  * @index: index of the node to return
  *
  * Return: if the node does not exist, return NULL
- * 	 where index is the index of the node, starting from 0
+ * where index is the index of the node, starting from 0
  */
 
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
