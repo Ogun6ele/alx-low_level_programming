@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
+
 /**
- * main - C program to print a line to the std error
+ * main - main function
  *
- * Return 1 (success)
+ * Return: 1 (success)
  */
 int main(void)
 {
