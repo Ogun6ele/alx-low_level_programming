@@ -1,11 +1,11 @@
-#include "holberton.h"
-#include <stdio.h>
+#include "main.h"
+
 
 /**
-*print_to_98 - prints from n to 98
-*@n: is an int
-*Return: void
-*/
+ * numberz - function that print number
+ * @i: number to print
+ * Return: void
+ */
 
 void numberz(int i)
 {

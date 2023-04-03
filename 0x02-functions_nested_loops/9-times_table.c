@@ -1,10 +1,11 @@
 #include "maini.h"
 
 /**
-*times_table - gives the times table
-*
-*Return: void
-*/
+ * times_table - function that print the 9 times table, starting with 0
+ *
+ * Return: void
+ */
+
 
 void times_table(void)
 {
