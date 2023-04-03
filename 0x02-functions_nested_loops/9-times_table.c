@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "maini.h"
 
 /**
 *times_table - gives the times table
@@ -8,31 +8,33 @@
 
 void times_table(void)
 {
-int i, j, r;
-for (i = 0; i <= 9; i++)
-{
-for (j = 0; j <= 9; j++)
-{
-r = i * j;
-if ((r == 0) && (j == 0))
-{
-_putchar(r + '0');
-}
-else if (r <= 9)
-{
-_putchar(',');
-_putchar(' ');
-_putchar(' ');
-_putchar(r + '0');
-}
-else
-{
-_putchar(',');
-_putchar(' ');
-_putchar(r / 10 + '0');
-_putchar(r % 10 + '0');
-}
-}
-_putchar('\n');
-}
+	int n;
+	int t;
+	int m;
+
+	for (n = 0; n < 10; n++)
+	{
+		_putchar(48);
+		_putchar(',');
+		_putchar(' ');
+		for (t = 1; t < 10; t++)
+		{
+			m = n * t;
+			if (m / 10 == 0)
+			{
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar(m / 10 + '0');
+			}
+			_putchar(m % 10 + '0');
+			if (t != 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+		}
+		_putchar('\n');
+	}
 }
